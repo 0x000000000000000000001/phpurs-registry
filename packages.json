@@ -1,0 +1,4315 @@
+{
+  "abc-parser": {
+    "type": "registry",
+    "value": {
+      "version": "2.1.0"
+    }
+  },
+  "ace": {
+    "type": "registry",
+    "value": {
+      "version": "9.1.0"
+    }
+  },
+  "address-rfc2821": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.1"
+    }
+  },
+  "aff": {
+    "type": "git",
+    "value": {
+      "git": "https://github.com/0x000000000000000000001/phpurs-aff.git",
+      "ref": "main",
+      "dependencies": [
+        "arrays",
+        "bifunctors",
+        "control",
+        "datetime",
+        "effect",
+        "either",
+        "exceptions",
+        "foldable-traversable",
+        "functions",
+        "maybe",
+        "newtype",
+        "parallel",
+        "prelude",
+        "refs",
+        "tailrec",
+        "transformers",
+        "unsafe-coerce"
+      ]
+    }
+  },
+  "aff-bus": {
+    "type": "registry",
+    "value": {
+      "version": "6.0.0"
+    }
+  },
+  "aff-coroutines": {
+    "type": "registry",
+    "value": {
+      "version": "9.0.0"
+    }
+  },
+  "aff-promise": {
+    "type": "registry",
+    "value": {
+      "version": "4.0.0"
+    }
+  },
+  "aff-retry": {
+    "type": "registry",
+    "value": {
+      "version": "2.0.0"
+    }
+  },
+  "affjax": {
+    "type": "registry",
+    "value": {
+      "version": "13.0.0"
+    }
+  },
+  "affjax-node": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.0"
+    }
+  },
+  "affjax-web": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.0"
+    }
+  },
+  "ansi": {
+    "type": "registry",
+    "value": {
+      "version": "7.0.0"
+    }
+  },
+  "apexcharts": {
+    "type": "registry",
+    "value": {
+      "version": "0.5.0"
+    }
+  },
+  "applicative-phases": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.0"
+    }
+  },
+  "argonaut": {
+    "type": "registry",
+    "value": {
+      "version": "9.0.0"
+    }
+  },
+  "argonaut-aeson-generic": {
+    "type": "registry",
+    "value": {
+      "version": "0.4.1"
+    }
+  },
+  "argonaut-codecs": {
+    "type": "registry",
+    "value": {
+      "version": "9.1.0"
+    }
+  },
+  "argonaut-core": {
+    "type": "git",
+    "value": {
+      "git": "https://github.com/0x000000000000000000001/phpurs-argonaut-core.git",
+      "ref": "main",
+      "dependencies": [
+        "arrays",
+        "control",
+        "either",
+        "foreign-object",
+        "functions",
+        "gen",
+        "maybe",
+        "nonempty",
+        "prelude",
+        "strings",
+        "tailrec"
+      ]
+    }
+  },
+  "argonaut-generic": {
+    "type": "registry",
+    "value": {
+      "version": "8.0.0"
+    }
+  },
+  "argonaut-traversals": {
+    "type": "registry",
+    "value": {
+      "version": "10.0.0"
+    }
+  },
+  "argparse-basic": {
+    "type": "registry",
+    "value": {
+      "version": "2.0.0"
+    }
+  },
+  "array-builder": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.2"
+    }
+  },
+  "array-search": {
+    "type": "registry",
+    "value": {
+      "version": "0.6.0"
+    }
+  },
+  "arraybuffer": {
+    "type": "registry",
+    "value": {
+      "version": "13.2.0"
+    }
+  },
+  "arraybuffer-builder": {
+    "type": "registry",
+    "value": {
+      "version": "3.1.0"
+    }
+  },
+  "arraybuffer-types": {
+    "type": "registry",
+    "value": {
+      "version": "3.0.2"
+    }
+  },
+  "arrays": {
+    "type": "git",
+    "value": {
+      "git": "https://github.com/0x000000000000000000001/phpurs-arrays.git",
+      "ref": "master",
+      "dependencies": [
+        "bifunctors",
+        "control",
+        "foldable-traversable",
+        "functions",
+        "maybe",
+        "nonempty",
+        "partial",
+        "prelude",
+        "safe-coerce",
+        "st",
+        "tailrec",
+        "tuples",
+        "unfoldable",
+        "unsafe-coerce"
+      ]
+    }
+  },
+  "arrays-extra": {
+    "type": "registry",
+    "value": {
+      "version": "0.6.1"
+    }
+  },
+  "arrays-zipper": {
+    "type": "registry",
+    "value": {
+      "version": "2.0.1"
+    }
+  },
+  "ask": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.0"
+    }
+  },
+  "assert": {
+    "type": "registry",
+    "value": {
+      "version": "6.0.0"
+    }
+  },
+  "assert-multiple": {
+    "type": "registry",
+    "value": {
+      "version": "0.4.0"
+    }
+  },
+  "avar": {
+    "type": "git",
+    "value": {
+      "git": "https://github.com/0x000000000000000000001/phpurs-avar.git",
+      "ref": "main",
+      "dependencies": [
+        "aff",
+        "effect",
+        "either",
+        "exceptions",
+        "functions",
+        "maybe"
+      ]
+    }
+  },
+  "axon": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.3"
+    }
+  },
+  "b64": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.9"
+    }
+  },
+  "barbies": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.1"
+    }
+  },
+  "barlow-lens": {
+    "type": "registry",
+    "value": {
+      "version": "0.9.0"
+    }
+  },
+  "benchlib": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.4"
+    }
+  },
+  "bifunctors": {
+    "type": "registry",
+    "value": {
+      "version": "6.1.0"
+    }
+  },
+  "bigints": {
+    "type": "registry",
+    "value": {
+      "version": "7.0.1"
+    }
+  },
+  "blessed": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.0"
+    }
+  },
+  "bolson": {
+    "type": "registry",
+    "value": {
+      "version": "0.3.9"
+    }
+  },
+  "bookhound": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.7"
+    }
+  },
+  "bower-json": {
+    "type": "registry",
+    "value": {
+      "version": "3.0.0"
+    }
+  },
+  "call-by-name": {
+    "type": "registry",
+    "value": {
+      "version": "4.0.1"
+    }
+  },
+  "canvas": {
+    "type": "registry",
+    "value": {
+      "version": "6.0.0"
+    }
+  },
+  "canvas-action": {
+    "type": "registry",
+    "value": {
+      "version": "9.0.0"
+    }
+  },
+  "cartesian": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.6"
+    }
+  },
+  "catenable-lists": {
+    "type": "git",
+    "value": {
+      "git": "https://github.com/0x000000000000000000001/phpurs-catenable-lists.git",
+      "ref": "main",
+      "dependencies": [
+        "control",
+        "foldable-traversable",
+        "lists",
+        "maybe",
+        "prelude",
+        "tuples",
+        "unfoldable"
+      ]
+    }
+  },
+  "cbor-stream": {
+    "type": "registry",
+    "value": {
+      "version": "1.3.0"
+    }
+  },
+  "chameleon": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.0"
+    }
+  },
+  "chameleon-halogen": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.3"
+    }
+  },
+  "chameleon-react-basic": {
+    "type": "registry",
+    "value": {
+      "version": "1.1.0"
+    }
+  },
+  "chameleon-styled": {
+    "type": "registry",
+    "value": {
+      "version": "2.5.0"
+    }
+  },
+  "chameleon-transformers": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.0"
+    }
+  },
+  "channel": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.0"
+    }
+  },
+  "chartjs": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.1"
+    }
+  },
+  "chartjs-halogen": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.0"
+    }
+  },
+  "checked-exceptions": {
+    "type": "registry",
+    "value": {
+      "version": "3.1.1"
+    }
+  },
+  "choku": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.2"
+    }
+  },
+  "classless": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.1"
+    }
+  },
+  "classless-arbitrary": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.1"
+    }
+  },
+  "classless-decode-json": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.1"
+    }
+  },
+  "classless-encode-json": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.3"
+    }
+  },
+  "classnames": {
+    "type": "registry",
+    "value": {
+      "version": "2.0.0"
+    }
+  },
+  "codec": {
+    "type": "registry",
+    "value": {
+      "version": "6.1.0"
+    }
+  },
+  "codec-argonaut": {
+    "type": "registry",
+    "value": {
+      "version": "10.0.0"
+    }
+  },
+  "codec-json": {
+    "type": "registry",
+    "value": {
+      "version": "2.0.0"
+    }
+  },
+  "colors": {
+    "type": "registry",
+    "value": {
+      "version": "7.0.1"
+    }
+  },
+  "compile-fail": {
+    "type": "registry",
+    "value": {
+      "version": "0.4.0"
+    }
+  },
+  "concur-core": {
+    "type": "registry",
+    "value": {
+      "version": "0.5.0"
+    }
+  },
+  "concur-react": {
+    "type": "registry",
+    "value": {
+      "version": "0.5.0"
+    }
+  },
+  "concurrent-queues": {
+    "type": "registry",
+    "value": {
+      "version": "3.0.0"
+    }
+  },
+  "console": {
+    "type": "git",
+    "value": {
+      "git": "https://github.com/0x000000000000000000001/phpurs-console.git",
+      "ref": "master",
+      "dependencies": [
+        "effect",
+        "prelude"
+      ]
+    }
+  },
+  "const": {
+    "type": "registry",
+    "value": {
+      "version": "6.0.0"
+    }
+  },
+  "contravariant": {
+    "type": "registry",
+    "value": {
+      "version": "6.0.0"
+    }
+  },
+  "control": {
+    "type": "registry",
+    "value": {
+      "version": "6.0.0"
+    }
+  },
+  "convertable-options": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.0"
+    }
+  },
+  "coroutines": {
+    "type": "registry",
+    "value": {
+      "version": "7.0.0"
+    }
+  },
+  "css": {
+    "type": "registry",
+    "value": {
+      "version": "6.0.0"
+    }
+  },
+  "css-class-name-extractor": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.4"
+    }
+  },
+  "css-frameworks": {
+    "type": "registry",
+    "value": {
+      "version": "1.1.0"
+    }
+  },
+  "csv-stream": {
+    "type": "registry",
+    "value": {
+      "version": "2.3.0"
+    }
+  },
+  "currency": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.0"
+    }
+  },
+  "data-mvc": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.2"
+    }
+  },
+  "datetime": {
+    "type": "git",
+    "value": {
+      "git": "https://github.com/0x000000000000000000001/phpurs-datetime.git",
+      "ref": "master",
+      "dependencies": [
+        "bifunctors",
+        "control",
+        "either",
+        "enums",
+        "foldable-traversable",
+        "functions",
+        "gen",
+        "integers",
+        "lists",
+        "maybe",
+        "newtype",
+        "numbers",
+        "ordered-collections",
+        "partial",
+        "prelude",
+        "tuples"
+      ]
+    }
+  },
+  "datetime-parsing": {
+    "type": "registry",
+    "value": {
+      "version": "0.2.0"
+    }
+  },
+  "debounce": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.0"
+    }
+  },
+  "debug": {
+    "type": "registry",
+    "value": {
+      "version": "6.0.2"
+    }
+  },
+  "decimals": {
+    "type": "registry",
+    "value": {
+      "version": "7.1.0"
+    }
+  },
+  "default-values": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.1"
+    }
+  },
+  "deku": {
+    "type": "registry",
+    "value": {
+      "version": "0.9.23"
+    }
+  },
+  "deno": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.5"
+    }
+  },
+  "dissect": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.0"
+    }
+  },
+  "distributive": {
+    "type": "registry",
+    "value": {
+      "version": "6.0.0"
+    }
+  },
+  "dodo-printer": {
+    "type": "registry",
+    "value": {
+      "version": "2.2.3"
+    }
+  },
+  "dom-filereader": {
+    "type": "registry",
+    "value": {
+      "version": "7.0.0"
+    }
+  },
+  "dom-indexed": {
+    "type": "registry",
+    "value": {
+      "version": "13.0.0"
+    }
+  },
+  "dom-simple": {
+    "type": "registry",
+    "value": {
+      "version": "0.4.0"
+    }
+  },
+  "dotenv": {
+    "type": "registry",
+    "value": {
+      "version": "4.0.3"
+    }
+  },
+  "droplet": {
+    "type": "registry",
+    "value": {
+      "version": "0.6.0"
+    }
+  },
+  "dts": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.0"
+    }
+  },
+  "dual-numbers": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.3"
+    }
+  },
+  "dynamic-buffer": {
+    "type": "registry",
+    "value": {
+      "version": "3.0.1"
+    }
+  },
+  "echarts-simple": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.1"
+    }
+  },
+  "effect": {
+    "type": "git",
+    "value": {
+      "git": "https://github.com/0x000000000000000000001/phpurs-effect.git",
+      "ref": "master",
+      "dependencies": [
+        "prelude"
+      ]
+    }
+  },
+  "either": {
+    "type": "registry",
+    "value": {
+      "version": "6.1.0"
+    }
+  },
+  "elmish": {
+    "type": "registry",
+    "value": {
+      "version": "0.13.0"
+    }
+  },
+  "elmish-enzyme": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.1"
+    }
+  },
+  "elmish-hooks": {
+    "type": "registry",
+    "value": {
+      "version": "0.11.0"
+    }
+  },
+  "elmish-html": {
+    "type": "registry",
+    "value": {
+      "version": "0.10.0"
+    }
+  },
+  "elmish-testing-library": {
+    "type": "registry",
+    "value": {
+      "version": "0.3.2"
+    }
+  },
+  "elmish-time-machine": {
+    "type": "registry",
+    "value": {
+      "version": "0.4.2"
+    }
+  },
+  "email-validate": {
+    "type": "registry",
+    "value": {
+      "version": "7.0.0"
+    }
+  },
+  "encoding": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.10"
+    }
+  },
+  "enums": {
+    "type": "git",
+    "value": {
+      "git": "https://github.com/0x000000000000000000001/phpurs-enums.git",
+      "ref": "master",
+      "dependencies": [
+        "control",
+        "either",
+        "gen",
+        "maybe",
+        "newtype",
+        "nonempty",
+        "partial",
+        "prelude",
+        "tuples",
+        "unfoldable"
+      ]
+    }
+  },
+  "env-names": {
+    "type": "registry",
+    "value": {
+      "version": "0.4.0"
+    }
+  },
+  "environment": {
+    "type": "registry",
+    "value": {
+      "version": "2.0.0"
+    }
+  },
+  "error": {
+    "type": "registry",
+    "value": {
+      "version": "2.0.0"
+    }
+  },
+  "eta-conversion": {
+    "type": "registry",
+    "value": {
+      "version": "0.3.2"
+    }
+  },
+  "exceptions": {
+    "type": "git",
+    "value": {
+      "git": "https://github.com/0x000000000000000000001/phpurs-exceptions.git",
+      "ref": "master",
+      "dependencies": [
+        "effect",
+        "either",
+        "maybe",
+        "prelude"
+      ]
+    }
+  },
+  "exists": {
+    "type": "registry",
+    "value": {
+      "version": "6.0.0"
+    }
+  },
+  "exitcodes": {
+    "type": "registry",
+    "value": {
+      "version": "4.0.0"
+    }
+  },
+  "expect-inferred": {
+    "type": "registry",
+    "value": {
+      "version": "3.0.0"
+    }
+  },
+  "express": {
+    "type": "registry",
+    "value": {
+      "version": "0.9.1"
+    }
+  },
+  "ezfetch": {
+    "type": "registry",
+    "value": {
+      "version": "1.1.1"
+    }
+  },
+  "fahrtwind": {
+    "type": "registry",
+    "value": {
+      "version": "2.0.0"
+    }
+  },
+  "faker-ffi": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.1"
+    }
+  },
+  "fakerjs": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.1"
+    }
+  },
+  "fallback": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.0"
+    }
+  },
+  "fast-vect": {
+    "type": "registry",
+    "value": {
+      "version": "1.2.0"
+    }
+  },
+  "fetch": {
+    "type": "registry",
+    "value": {
+      "version": "4.1.0"
+    }
+  },
+  "fetch-argonaut": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.1"
+    }
+  },
+  "fetch-core": {
+    "type": "registry",
+    "value": {
+      "version": "5.1.0"
+    }
+  },
+  "fetch-yoga-json": {
+    "type": "registry",
+    "value": {
+      "version": "1.1.0"
+    }
+  },
+  "ffi-simple": {
+    "type": "registry",
+    "value": {
+      "version": "0.5.1"
+    }
+  },
+  "fft": {
+    "type": "registry",
+    "value": {
+      "version": "0.3.0"
+    }
+  },
+  "fft-js": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.0"
+    }
+  },
+  "filterable": {
+    "type": "registry",
+    "value": {
+      "version": "5.0.0"
+    }
+  },
+  "fix-functor": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.0"
+    }
+  },
+  "fixed-points": {
+    "type": "registry",
+    "value": {
+      "version": "7.0.0"
+    }
+  },
+  "fixed-precision": {
+    "type": "registry",
+    "value": {
+      "version": "5.0.0"
+    }
+  },
+  "flame": {
+    "type": "registry",
+    "value": {
+      "version": "1.6.0"
+    }
+  },
+  "float32": {
+    "type": "registry",
+    "value": {
+      "version": "2.0.0"
+    }
+  },
+  "fmt": {
+    "type": "registry",
+    "value": {
+      "version": "0.2.1"
+    }
+  },
+  "foldable-traversable": {
+    "type": "git",
+    "value": {
+      "git": "https://github.com/0x000000000000000000001/phpurs-foldable-traversable.git",
+      "ref": "master",
+      "dependencies": [
+        "bifunctors",
+        "const",
+        "control",
+        "either",
+        "functors",
+        "identity",
+        "maybe",
+        "newtype",
+        "orders",
+        "prelude",
+        "tuples"
+      ]
+    }
+  },
+  "foldable-traversable-extra": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.6"
+    }
+  },
+  "foreign": {
+    "type": "registry",
+    "value": {
+      "version": "7.0.0"
+    }
+  },
+  "foreign-object": {
+    "type": "git",
+    "value": {
+      "git": "https://github.com/0x000000000000000000001/phpurs-foreign-object.git",
+      "ref": "master",
+      "dependencies": [
+        "arrays",
+        "foldable-traversable",
+        "functions",
+        "gen",
+        "lists",
+        "maybe",
+        "prelude",
+        "st",
+        "tailrec",
+        "tuples",
+        "typelevel-prelude",
+        "unfoldable"
+      ]
+    }
+  },
+  "foreign-readwrite": {
+    "type": "registry",
+    "value": {
+      "version": "3.4.0"
+    }
+  },
+  "forgetmenot": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.0"
+    }
+  },
+  "fork": {
+    "type": "registry",
+    "value": {
+      "version": "6.0.0"
+    }
+  },
+  "form-urlencoded": {
+    "type": "registry",
+    "value": {
+      "version": "7.0.0"
+    }
+  },
+  "formatters": {
+    "type": "registry",
+    "value": {
+      "version": "7.0.0"
+    }
+  },
+  "framer-motion": {
+    "type": "registry",
+    "value": {
+      "version": "3.1.0"
+    }
+  },
+  "free": {
+    "type": "git",
+    "value": {
+      "git": "https://github.com/0x000000000000000000001/phpurs-free.git",
+      "ref": "main",
+      "dependencies": [
+        "catenable-lists",
+        "control",
+        "either",
+        "foldable-traversable",
+        "maybe",
+        "prelude",
+        "tailrec",
+        "transformers",
+        "tuples",
+        "unsafe-coerce"
+      ]
+    }
+  },
+  "freeap": {
+    "type": "registry",
+    "value": {
+      "version": "7.0.0"
+    }
+  },
+  "freer-free": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.1"
+    }
+  },
+  "freet": {
+    "type": "registry",
+    "value": {
+      "version": "7.0.0"
+    }
+  },
+  "functions": {
+    "type": "git",
+    "value": {
+      "git": "https://github.com/0x000000000000000000001/phpurs-functions.git",
+      "ref": "master",
+      "dependencies": [
+        "prelude"
+      ]
+    }
+  },
+  "functor1": {
+    "type": "registry",
+    "value": {
+      "version": "3.0.0"
+    }
+  },
+  "functors": {
+    "type": "registry",
+    "value": {
+      "version": "5.0.0"
+    }
+  },
+  "fuzzy": {
+    "type": "registry",
+    "value": {
+      "version": "0.4.0"
+    }
+  },
+  "gen": {
+    "type": "registry",
+    "value": {
+      "version": "4.0.0"
+    }
+  },
+  "generate-values": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.1"
+    }
+  },
+  "generic-router": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.1"
+    }
+  },
+  "geojson": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.5"
+    }
+  },
+  "geometria": {
+    "type": "registry",
+    "value": {
+      "version": "2.2.0"
+    }
+  },
+  "gesso": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.1"
+    }
+  },
+  "gojs": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.1"
+    }
+  },
+  "golden-test": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.0"
+    }
+  },
+  "golem-fetch": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.0"
+    }
+  },
+  "grain": {
+    "type": "registry",
+    "value": {
+      "version": "3.0.0"
+    }
+  },
+  "grain-router": {
+    "type": "registry",
+    "value": {
+      "version": "3.0.0"
+    }
+  },
+  "grain-virtualized": {
+    "type": "registry",
+    "value": {
+      "version": "3.0.0"
+    }
+  },
+  "graphql-client": {
+    "type": "registry",
+    "value": {
+      "version": "10.1.1"
+    }
+  },
+  "graphs": {
+    "type": "registry",
+    "value": {
+      "version": "8.1.0"
+    }
+  },
+  "group": {
+    "type": "registry",
+    "value": {
+      "version": "4.1.1"
+    }
+  },
+  "halogen": {
+    "type": "registry",
+    "value": {
+      "version": "7.0.0"
+    }
+  },
+  "halogen-bootstrap5": {
+    "type": "registry",
+    "value": {
+      "version": "5.3.2"
+    }
+  },
+  "halogen-canvas": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.0"
+    }
+  },
+  "halogen-css": {
+    "type": "registry",
+    "value": {
+      "version": "10.0.0"
+    }
+  },
+  "halogen-declarative-canvas": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.8"
+    }
+  },
+  "halogen-echarts-simple": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.4"
+    }
+  },
+  "halogen-formless": {
+    "type": "registry",
+    "value": {
+      "version": "4.0.3"
+    }
+  },
+  "halogen-helix": {
+    "type": "registry",
+    "value": {
+      "version": "1.1.0"
+    }
+  },
+  "halogen-hooks": {
+    "type": "registry",
+    "value": {
+      "version": "0.6.3"
+    }
+  },
+  "halogen-hooks-extra": {
+    "type": "registry",
+    "value": {
+      "version": "0.9.0"
+    }
+  },
+  "halogen-infinite-scroll": {
+    "type": "registry",
+    "value": {
+      "version": "1.1.0"
+    }
+  },
+  "halogen-store": {
+    "type": "registry",
+    "value": {
+      "version": "0.5.4"
+    }
+  },
+  "halogen-storybook": {
+    "type": "registry",
+    "value": {
+      "version": "2.0.0"
+    }
+  },
+  "halogen-subscriptions": {
+    "type": "registry",
+    "value": {
+      "version": "2.0.0"
+    }
+  },
+  "halogen-svg-elems": {
+    "type": "registry",
+    "value": {
+      "version": "8.0.0"
+    }
+  },
+  "halogen-typewriter": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.4"
+    }
+  },
+  "halogen-use-trigger-hooks": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.0"
+    }
+  },
+  "halogen-vdom": {
+    "type": "registry",
+    "value": {
+      "version": "8.0.0"
+    }
+  },
+  "halogen-vdom-string-renderer": {
+    "type": "registry",
+    "value": {
+      "version": "0.5.0"
+    }
+  },
+  "halogen-xterm": {
+    "type": "registry",
+    "value": {
+      "version": "2.0.0"
+    }
+  },
+  "heckin": {
+    "type": "registry",
+    "value": {
+      "version": "2.0.1"
+    }
+  },
+  "heterogeneous": {
+    "type": "registry",
+    "value": {
+      "version": "0.7.0"
+    }
+  },
+  "homogeneous": {
+    "type": "registry",
+    "value": {
+      "version": "0.4.0"
+    }
+  },
+  "http-methods": {
+    "type": "registry",
+    "value": {
+      "version": "6.0.0"
+    }
+  },
+  "httpurple": {
+    "type": "registry",
+    "value": {
+      "version": "4.0.0"
+    }
+  },
+  "huffman": {
+    "type": "registry",
+    "value": {
+      "version": "0.4.0"
+    }
+  },
+  "humdrum": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.1"
+    }
+  },
+  "hylograph-canvas": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.0"
+    }
+  },
+  "hylograph-d3-kernel": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.0"
+    }
+  },
+  "hylograph-graph": {
+    "type": "registry",
+    "value": {
+      "version": "0.3.0"
+    }
+  },
+  "hylograph-layout": {
+    "type": "registry",
+    "value": {
+      "version": "0.3.0"
+    }
+  },
+  "hylograph-music": {
+    "type": "registry",
+    "value": {
+      "version": "0.4.0"
+    }
+  },
+  "hylograph-optics": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.0"
+    }
+  },
+  "hylograph-selection": {
+    "type": "registry",
+    "value": {
+      "version": "0.5.1"
+    }
+  },
+  "hylograph-simulation": {
+    "type": "registry",
+    "value": {
+      "version": "0.5.0"
+    }
+  },
+  "hylograph-simulation-core": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.0"
+    }
+  },
+  "hylograph-simulation-halogen": {
+    "type": "registry",
+    "value": {
+      "version": "0.5.0"
+    }
+  },
+  "hylograph-transitions": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.0"
+    }
+  },
+  "hylograph-wasm-kernel": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.0"
+    }
+  },
+  "hyrule": {
+    "type": "registry",
+    "value": {
+      "version": "2.3.8"
+    }
+  },
+  "i18next": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.0"
+    }
+  },
+  "idb": {
+    "type": "registry",
+    "value": {
+      "version": "0.2.0"
+    }
+  },
+  "identity": {
+    "type": "registry",
+    "value": {
+      "version": "6.0.0"
+    }
+  },
+  "identy": {
+    "type": "registry",
+    "value": {
+      "version": "4.0.1"
+    }
+  },
+  "indexed-db": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.0"
+    }
+  },
+  "indexed-monad": {
+    "type": "registry",
+    "value": {
+      "version": "3.0.0"
+    }
+  },
+  "ink": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.1"
+    }
+  },
+  "int64": {
+    "type": "registry",
+    "value": {
+      "version": "3.0.0"
+    }
+  },
+  "integers": {
+    "type": "git",
+    "value": {
+      "git": "https://github.com/0x000000000000000000001/phpurs-integers.git",
+      "ref": "master",
+      "dependencies": [
+        "maybe",
+        "numbers",
+        "prelude"
+      ]
+    }
+  },
+  "interpolate": {
+    "type": "registry",
+    "value": {
+      "version": "5.0.2"
+    }
+  },
+  "intersection-observer": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.1"
+    }
+  },
+  "invariant": {
+    "type": "registry",
+    "value": {
+      "version": "6.0.0"
+    }
+  },
+  "jarilo": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.1"
+    }
+  },
+  "jelly": {
+    "type": "registry",
+    "value": {
+      "version": "0.10.0"
+    }
+  },
+  "jelly-router": {
+    "type": "registry",
+    "value": {
+      "version": "0.3.0"
+    }
+  },
+  "jelly-signal": {
+    "type": "registry",
+    "value": {
+      "version": "0.4.0"
+    }
+  },
+  "jest": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.0"
+    }
+  },
+  "js-abort-controller": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.0"
+    }
+  },
+  "js-bigints": {
+    "type": "registry",
+    "value": {
+      "version": "2.2.1"
+    }
+  },
+  "js-date": {
+    "type": "registry",
+    "value": {
+      "version": "8.0.0"
+    }
+  },
+  "js-fetch": {
+    "type": "registry",
+    "value": {
+      "version": "0.2.1"
+    }
+  },
+  "js-fileio": {
+    "type": "registry",
+    "value": {
+      "version": "3.0.0"
+    }
+  },
+  "js-intl": {
+    "type": "registry",
+    "value": {
+      "version": "1.3.0"
+    }
+  },
+  "js-iterators": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.1"
+    }
+  },
+  "js-maps": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.2"
+    }
+  },
+  "js-promise": {
+    "type": "git",
+    "value": {
+      "git": "https://github.com/0x000000000000000000001/phpurs-js-promise.git",
+      "ref": "master",
+      "dependencies": [
+        "console",
+        "effect",
+        "exceptions",
+        "functions",
+        "prelude"
+      ]
+    }
+  },
+  "js-promise-aff": {
+    "type": "git",
+    "value": {
+      "git": "https://github.com/0x000000000000000000001/phpurs-js-promise-aff.git",
+      "ref": "master",
+      "dependencies": [
+        "aff",
+        "console",
+        "effect",
+        "foreign",
+        "js-promise",
+        "prelude"
+      ]
+    }
+  },
+  "js-temporal": {
+    "type": "registry",
+    "value": {
+      "version": "3.0.0"
+    }
+  },
+  "js-timers": {
+    "type": "registry",
+    "value": {
+      "version": "6.1.0"
+    }
+  },
+  "js-uri": {
+    "type": "registry",
+    "value": {
+      "version": "3.1.0"
+    }
+  },
+  "jsdom": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.0"
+    }
+  },
+  "jsinc": {
+    "type": "registry",
+    "value": {
+      "version": "0.5.1"
+    }
+  },
+  "json": {
+    "type": "registry",
+    "value": {
+      "version": "1.1.0"
+    }
+  },
+  "json-codecs": {
+    "type": "registry",
+    "value": {
+      "version": "5.0.0"
+    }
+  },
+  "justifill": {
+    "type": "registry",
+    "value": {
+      "version": "0.5.0"
+    }
+  },
+  "jwt": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.9"
+    }
+  },
+  "labeled-data": {
+    "type": "registry",
+    "value": {
+      "version": "0.2.0"
+    }
+  },
+  "language-cst-parser": {
+    "type": "registry",
+    "value": {
+      "version": "0.14.1"
+    }
+  },
+  "lazy": {
+    "type": "git",
+    "value": {
+      "git": "https://github.com/0x000000000000000000001/phpurs-lazy.git",
+      "ref": "master",
+      "dependencies": [
+        "control",
+        "foldable-traversable",
+        "prelude"
+      ]
+    }
+  },
+  "lazy-joe": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.0"
+    }
+  },
+  "lcg": {
+    "type": "registry",
+    "value": {
+      "version": "4.0.0"
+    }
+  },
+  "leibniz": {
+    "type": "registry",
+    "value": {
+      "version": "5.0.0"
+    }
+  },
+  "leveldb": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.1"
+    }
+  },
+  "liminal": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.1"
+    }
+  },
+  "linalg": {
+    "type": "registry",
+    "value": {
+      "version": "6.0.0"
+    }
+  },
+  "linear": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.0"
+    }
+  },
+  "lists": {
+    "type": "registry",
+    "value": {
+      "version": "7.0.0"
+    }
+  },
+  "literals": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.2"
+    }
+  },
+  "logging": {
+    "type": "registry",
+    "value": {
+      "version": "3.0.0"
+    }
+  },
+  "logging-journald": {
+    "type": "registry",
+    "value": {
+      "version": "0.4.0"
+    }
+  },
+  "lumi-components": {
+    "type": "registry",
+    "value": {
+      "version": "18.0.0"
+    }
+  },
+  "machines": {
+    "type": "registry",
+    "value": {
+      "version": "7.0.0"
+    }
+  },
+  "maps-eager": {
+    "type": "registry",
+    "value": {
+      "version": "0.5.0"
+    }
+  },
+  "marionette": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.0"
+    }
+  },
+  "marionette-react-basic-hooks": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.1"
+    }
+  },
+  "markdown-it-js": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.0"
+    }
+  },
+  "marked": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.0"
+    }
+  },
+  "math": {
+    "type": "git",
+    "value": {
+      "git": "https://github.com/0x000000000000000000001/phpurs-math.git",
+      "ref": "master",
+      "dependencies": []
+    }
+  },
+  "matrices": {
+    "type": "registry",
+    "value": {
+      "version": "5.0.1"
+    }
+  },
+  "matryoshka": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.0"
+    }
+  },
+  "maybe": {
+    "type": "registry",
+    "value": {
+      "version": "6.0.0"
+    }
+  },
+  "media-types": {
+    "type": "registry",
+    "value": {
+      "version": "6.0.0"
+    }
+  },
+  "meowclient": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.0"
+    }
+  },
+  "midi": {
+    "type": "registry",
+    "value": {
+      "version": "4.0.0"
+    }
+  },
+  "milkdown": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.0"
+    }
+  },
+  "milkis": {
+    "type": "registry",
+    "value": {
+      "version": "9.0.0"
+    }
+  },
+  "mimetype": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.1"
+    }
+  },
+  "minibench": {
+    "type": "registry",
+    "value": {
+      "version": "4.0.1"
+    }
+  },
+  "mmorph": {
+    "type": "registry",
+    "value": {
+      "version": "7.0.0"
+    }
+  },
+  "monad-control": {
+    "type": "registry",
+    "value": {
+      "version": "5.0.0"
+    }
+  },
+  "monad-logger": {
+    "type": "registry",
+    "value": {
+      "version": "1.3.1"
+    }
+  },
+  "monad-loops": {
+    "type": "registry",
+    "value": {
+      "version": "0.5.0"
+    }
+  },
+  "monad-unlift": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.1"
+    }
+  },
+  "monoid-extras": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.1"
+    }
+  },
+  "monoidal": {
+    "type": "registry",
+    "value": {
+      "version": "0.16.0"
+    }
+  },
+  "morello": {
+    "type": "registry",
+    "value": {
+      "version": "0.4.0"
+    }
+  },
+  "mote": {
+    "type": "registry",
+    "value": {
+      "version": "3.0.0"
+    }
+  },
+  "motion": {
+    "type": "registry",
+    "value": {
+      "version": "4.0.0"
+    }
+  },
+  "motsunabe": {
+    "type": "registry",
+    "value": {
+      "version": "2.0.0"
+    }
+  },
+  "mvc": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.1"
+    }
+  },
+  "mysql": {
+    "type": "registry",
+    "value": {
+      "version": "6.0.1"
+    }
+  },
+  "n3": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.0"
+    }
+  },
+  "nano-id": {
+    "type": "registry",
+    "value": {
+      "version": "1.1.0"
+    }
+  },
+  "nanoid": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.0"
+    }
+  },
+  "naturals": {
+    "type": "registry",
+    "value": {
+      "version": "3.0.0"
+    }
+  },
+  "nested-functor": {
+    "type": "registry",
+    "value": {
+      "version": "0.2.1"
+    }
+  },
+  "newtype": {
+    "type": "registry",
+    "value": {
+      "version": "5.0.0"
+    }
+  },
+  "next-purs-rsc": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.0"
+    }
+  },
+  "nextjs": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.1"
+    }
+  },
+  "nextui": {
+    "type": "registry",
+    "value": {
+      "version": "0.2.0"
+    }
+  },
+  "node-buffer": {
+    "type": "registry",
+    "value": {
+      "version": "9.0.0"
+    }
+  },
+  "node-child-process": {
+    "type": "registry",
+    "value": {
+      "version": "11.1.0"
+    }
+  },
+  "node-event-emitter": {
+    "type": "registry",
+    "value": {
+      "version": "3.0.0"
+    }
+  },
+  "node-execa": {
+    "type": "registry",
+    "value": {
+      "version": "5.0.0"
+    }
+  },
+  "node-fs": {
+    "type": "git",
+    "value": {
+      "git": "https://github.com/0x000000000000000000001/phpurs-node-fs.git",
+      "ref": "master",
+      "dependencies": [
+        "datetime",
+        "effect",
+        "either",
+        "enums",
+        "exceptions",
+        "functions",
+        "integers",
+        "js-date",
+        "maybe",
+        "node-buffer",
+        "node-path",
+        "node-streams",
+        "nullable",
+        "partial",
+        "prelude",
+        "strings",
+        "unsafe-coerce"
+      ]
+    }
+  },
+  "node-glob-basic": {
+    "type": "registry",
+    "value": {
+      "version": "2.0.0"
+    }
+  },
+  "node-http": {
+    "type": "registry",
+    "value": {
+      "version": "9.1.0"
+    }
+  },
+  "node-http2": {
+    "type": "registry",
+    "value": {
+      "version": "1.1.1"
+    }
+  },
+  "node-human-signals": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.0"
+    }
+  },
+  "node-net": {
+    "type": "registry",
+    "value": {
+      "version": "5.1.0"
+    }
+  },
+  "node-os": {
+    "type": "registry",
+    "value": {
+      "version": "5.1.0"
+    }
+  },
+  "node-path": {
+    "type": "registry",
+    "value": {
+      "version": "5.0.1"
+    }
+  },
+  "node-process": {
+    "type": "git",
+    "value": {
+      "git": "https://github.com/0x000000000000000000001/phpurs-node-process.git",
+      "ref": "master",
+      "dependencies": [
+        "effect",
+        "foreign",
+        "foreign-object",
+        "maybe",
+        "node-event-emitter",
+        "node-streams",
+        "posix-types",
+        "prelude",
+        "unsafe-coerce"
+      ]
+    }
+  },
+  "node-readline": {
+    "type": "registry",
+    "value": {
+      "version": "8.1.1"
+    }
+  },
+  "node-sqlite3": {
+    "type": "registry",
+    "value": {
+      "version": "8.0.0"
+    }
+  },
+  "node-stream-pipes": {
+    "type": "registry",
+    "value": {
+      "version": "2.1.6"
+    }
+  },
+  "node-streams": {
+    "type": "git",
+    "value": {
+      "git": "https://github.com/0x000000000000000000001/phpurs-node-streams.git",
+      "ref": "master",
+      "dependencies": [
+        {
+          "aff": ">=7.0.0 <9.0.0"
+        },
+        {
+          "arrays": ">=7.3.0 <8.0.0"
+        },
+        {
+          "effect": ">=4.0.0 <5.0.0"
+        },
+        {
+          "either": ">=6.0.0 <7.0.0"
+        },
+        {
+          "exceptions": ">=6.0.0 <7.0.0"
+        },
+        {
+          "maybe": ">=6.0.0 <7.0.0"
+        },
+        {
+          "node-buffer": ">=9.0.0 <10.0.0"
+        },
+        {
+          "node-event-emitter": ">=3.0.0 <4.0.0"
+        },
+        {
+          "nullable": ">=6.0.0 <7.0.0"
+        },
+        {
+          "prelude": ">=6.0.0 <7.0.0"
+        },
+        {
+          "refs": ">=6.0.0 <7.0.0"
+        },
+        {
+          "st": ">=6.2.0 <7.0.0"
+        },
+        {
+          "tailrec": ">=6.1.0 <7.0.0"
+        },
+        {
+          "unsafe-coerce": ">=6.0.0 <7.0.0"
+        }
+      ]
+    }
+  },
+  "node-tls": {
+    "type": "registry",
+    "value": {
+      "version": "0.3.1"
+    }
+  },
+  "node-url": {
+    "type": "registry",
+    "value": {
+      "version": "7.0.1"
+    }
+  },
+  "node-workerbees": {
+    "type": "registry",
+    "value": {
+      "version": "0.3.1"
+    }
+  },
+  "node-zlib": {
+    "type": "registry",
+    "value": {
+      "version": "0.4.0"
+    }
+  },
+  "nonempty": {
+    "type": "registry",
+    "value": {
+      "version": "7.0.0"
+    }
+  },
+  "now": {
+    "type": "git",
+    "value": {
+      "git": "https://github.com/0x000000000000000000001/phpurs-now.git",
+      "ref": "main",
+      "dependencies": [
+        "datetime",
+        "effect"
+      ]
+    }
+  },
+  "npm-package-json": {
+    "type": "registry",
+    "value": {
+      "version": "2.0.0"
+    }
+  },
+  "nqueens": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.4"
+    }
+  },
+  "nullable": {
+    "type": "git",
+    "value": {
+      "git": "https://github.com/0x000000000000000000001/phpurs-nullable.git",
+      "ref": "main",
+      "dependencies": [
+        "assert",
+        "effect",
+        "functions",
+        "maybe",
+        "prelude"
+      ]
+    }
+  },
+  "numberfield": {
+    "type": "registry",
+    "value": {
+      "version": "0.2.2"
+    }
+  },
+  "numbers": {
+    "type": "git",
+    "value": {
+      "git": "https://github.com/0x000000000000000000001/phpurs-numbers.git",
+      "ref": "master",
+      "dependencies": [
+        "functions",
+        "maybe"
+      ]
+    }
+  },
+  "oak": {
+    "type": "registry",
+    "value": {
+      "version": "3.1.1"
+    }
+  },
+  "oak-debug": {
+    "type": "registry",
+    "value": {
+      "version": "1.2.2"
+    }
+  },
+  "object-maps": {
+    "type": "registry",
+    "value": {
+      "version": "0.3.0"
+    }
+  },
+  "ocarina": {
+    "type": "registry",
+    "value": {
+      "version": "1.5.4"
+    }
+  },
+  "oooooooooorrrrrrrmm-lib": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.1"
+    }
+  },
+  "open-colors-scales-and-schemes": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.0"
+    }
+  },
+  "open-drawing": {
+    "type": "registry",
+    "value": {
+      "version": "6.0.4"
+    }
+  },
+  "open-folds": {
+    "type": "registry",
+    "value": {
+      "version": "6.4.0"
+    }
+  },
+  "open-foreign-generic": {
+    "type": "registry",
+    "value": {
+      "version": "11.0.3"
+    }
+  },
+  "open-memoize": {
+    "type": "registry",
+    "value": {
+      "version": "6.2.0"
+    }
+  },
+  "open-mkdirp-aff": {
+    "type": "registry",
+    "value": {
+      "version": "1.2.0"
+    }
+  },
+  "open-pairing": {
+    "type": "registry",
+    "value": {
+      "version": "6.2.0"
+    }
+  },
+  "open-smolder": {
+    "type": "registry",
+    "value": {
+      "version": "12.0.2"
+    }
+  },
+  "options": {
+    "type": "registry",
+    "value": {
+      "version": "7.0.0"
+    }
+  },
+  "optparse": {
+    "type": "registry",
+    "value": {
+      "version": "5.0.1"
+    }
+  },
+  "ordered-collections": {
+    "type": "registry",
+    "value": {
+      "version": "3.2.0"
+    }
+  },
+  "ordered-set": {
+    "type": "registry",
+    "value": {
+      "version": "0.5.0"
+    }
+  },
+  "orders": {
+    "type": "registry",
+    "value": {
+      "version": "6.0.0"
+    }
+  },
+  "org-doc": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.0"
+    }
+  },
+  "owoify": {
+    "type": "registry",
+    "value": {
+      "version": "1.2.0"
+    }
+  },
+  "pairs": {
+    "type": "registry",
+    "value": {
+      "version": "9.0.1"
+    }
+  },
+  "parallel": {
+    "type": "registry",
+    "value": {
+      "version": "7.0.0"
+    }
+  },
+  "parsing": {
+    "type": "registry",
+    "value": {
+      "version": "11.0.0"
+    }
+  },
+  "parsing-dataview": {
+    "type": "registry",
+    "value": {
+      "version": "3.2.4"
+    }
+  },
+  "partial": {
+    "type": "git",
+    "value": {
+      "git": "https://github.com/0x000000000000000000001/phpurs-partial.git",
+      "ref": "master",
+      "dependencies": []
+    }
+  },
+  "pathy": {
+    "type": "registry",
+    "value": {
+      "version": "9.0.0"
+    }
+  },
+  "pha": {
+    "type": "registry",
+    "value": {
+      "version": "0.13.0"
+    }
+  },
+  "phaser": {
+    "type": "registry",
+    "value": {
+      "version": "0.7.0"
+    }
+  },
+  "phpurs-starter": {
+    "type": "workspace",
+    "value": {
+      "hasTests": false,
+      "package": {
+        "name": "phpurs-starter",
+        "dependencies": [
+          "console",
+          "effect",
+          "prelude"
+        ]
+      },
+      "path": "./"
+    }
+  },
+  "phylio": {
+    "type": "registry",
+    "value": {
+      "version": "1.1.2"
+    }
+  },
+  "pipes": {
+    "type": "registry",
+    "value": {
+      "version": "8.0.0"
+    }
+  },
+  "pirates-charm": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.1"
+    }
+  },
+  "play": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.0"
+    }
+  },
+  "pmock": {
+    "type": "registry",
+    "value": {
+      "version": "0.9.0"
+    }
+  },
+  "point-free": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.0"
+    }
+  },
+  "pointed-list": {
+    "type": "registry",
+    "value": {
+      "version": "0.5.1"
+    }
+  },
+  "polymorphic-vectors": {
+    "type": "registry",
+    "value": {
+      "version": "4.0.0"
+    }
+  },
+  "posix-types": {
+    "type": "registry",
+    "value": {
+      "version": "6.0.0"
+    }
+  },
+  "postgresql": {
+    "type": "registry",
+    "value": {
+      "version": "2.0.21"
+    }
+  },
+  "precise": {
+    "type": "registry",
+    "value": {
+      "version": "6.0.0"
+    }
+  },
+  "precise-datetime": {
+    "type": "registry",
+    "value": {
+      "version": "7.0.0"
+    }
+  },
+  "prelude": {
+    "type": "git",
+    "value": {
+      "git": "https://github.com/0x000000000000000000001/phpurs-prelude.git",
+      "ref": "master",
+      "dependencies": []
+    }
+  },
+  "prettier-printer": {
+    "type": "registry",
+    "value": {
+      "version": "3.0.0"
+    }
+  },
+  "printf": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.0"
+    }
+  },
+  "priority-queue": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.2"
+    }
+  },
+  "profunctor": {
+    "type": "registry",
+    "value": {
+      "version": "6.0.1"
+    }
+  },
+  "profunctor-lenses": {
+    "type": "registry",
+    "value": {
+      "version": "8.0.0"
+    }
+  },
+  "prospero": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.0"
+    }
+  },
+  "protobuf": {
+    "type": "registry",
+    "value": {
+      "version": "4.4.0"
+    }
+  },
+  "ps-spa": {
+    "type": "registry",
+    "value": {
+      "version": "0.7.1"
+    }
+  },
+  "psa-utils": {
+    "type": "registry",
+    "value": {
+      "version": "8.0.0"
+    }
+  },
+  "psci-support": {
+    "type": "registry",
+    "value": {
+      "version": "6.0.0"
+    }
+  },
+  "punycode": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.0"
+    }
+  },
+  "pursfmt": {
+    "type": "registry",
+    "value": {
+      "version": "0.17.0"
+    }
+  },
+  "qualified-do": {
+    "type": "registry",
+    "value": {
+      "version": "2.2.0"
+    }
+  },
+  "quantities": {
+    "type": "registry",
+    "value": {
+      "version": "12.2.0"
+    }
+  },
+  "quickcheck": {
+    "type": "registry",
+    "value": {
+      "version": "8.0.1"
+    }
+  },
+  "quickcheck-combinators": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.3"
+    }
+  },
+  "quickcheck-laws": {
+    "type": "registry",
+    "value": {
+      "version": "7.0.0"
+    }
+  },
+  "quickcheck-utf8": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.0"
+    }
+  },
+  "random": {
+    "type": "git",
+    "value": {
+      "git": "https://github.com/0x000000000000000000001/phpurs-random.git",
+      "ref": "master",
+      "dependencies": [
+        "effect",
+        "integers"
+      ]
+    }
+  },
+  "rationals": {
+    "type": "registry",
+    "value": {
+      "version": "6.0.0"
+    }
+  },
+  "rdf": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.0"
+    }
+  },
+  "react": {
+    "type": "registry",
+    "value": {
+      "version": "11.0.0"
+    }
+  },
+  "react-aria": {
+    "type": "registry",
+    "value": {
+      "version": "0.2.0"
+    }
+  },
+  "react-basic": {
+    "type": "registry",
+    "value": {
+      "version": "17.0.0"
+    }
+  },
+  "react-basic-classic": {
+    "type": "registry",
+    "value": {
+      "version": "3.0.0"
+    }
+  },
+  "react-basic-dnd": {
+    "type": "registry",
+    "value": {
+      "version": "10.1.0"
+    }
+  },
+  "react-basic-dom": {
+    "type": "registry",
+    "value": {
+      "version": "7.0.0"
+    }
+  },
+  "react-basic-dom-beta": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.1"
+    }
+  },
+  "react-basic-emotion": {
+    "type": "registry",
+    "value": {
+      "version": "7.1.0"
+    }
+  },
+  "react-basic-hooks": {
+    "type": "registry",
+    "value": {
+      "version": "9.1.1"
+    }
+  },
+  "react-basic-storybook": {
+    "type": "registry",
+    "value": {
+      "version": "2.0.0"
+    }
+  },
+  "react-dnd-kit": {
+    "type": "registry",
+    "value": {
+      "version": "0.6.0"
+    }
+  },
+  "react-dom": {
+    "type": "registry",
+    "value": {
+      "version": "8.0.0"
+    }
+  },
+  "react-halo": {
+    "type": "registry",
+    "value": {
+      "version": "3.0.0"
+    }
+  },
+  "react-icons": {
+    "type": "registry",
+    "value": {
+      "version": "1.1.5"
+    }
+  },
+  "react-markdown": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.0"
+    }
+  },
+  "react-testing-library": {
+    "type": "registry",
+    "value": {
+      "version": "4.0.1"
+    }
+  },
+  "react-virtuoso": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.0"
+    }
+  },
+  "reactix": {
+    "type": "registry",
+    "value": {
+      "version": "0.6.1"
+    }
+  },
+  "read": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.1"
+    }
+  },
+  "recharts": {
+    "type": "registry",
+    "value": {
+      "version": "1.1.0"
+    }
+  },
+  "record": {
+    "type": "git",
+    "value": {
+      "git": "https://github.com/0x000000000000000000001/phpurs-record.git",
+      "ref": "master",
+      "dependencies": [
+        "functions",
+        "prelude",
+        "unsafe-coerce"
+      ]
+    }
+  },
+  "record-extra": {
+    "type": "registry",
+    "value": {
+      "version": "5.0.1"
+    }
+  },
+  "record-extra-srghma": {
+    "type": "registry",
+    "value": {
+      "version": "0.2.8"
+    }
+  },
+  "record-ptional-fields": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.2"
+    }
+  },
+  "record-studio": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.4"
+    }
+  },
+  "ref-lifted": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.2"
+    }
+  },
+  "refs": {
+    "type": "git",
+    "value": {
+      "git": "https://github.com/0x000000000000000000001/phpurs-refs.git",
+      "ref": "master",
+      "dependencies": [
+        "effect",
+        "prelude"
+      ]
+    }
+  },
+  "remotedata": {
+    "type": "registry",
+    "value": {
+      "version": "5.0.1"
+    }
+  },
+  "repr": {
+    "type": "registry",
+    "value": {
+      "version": "0.5.0"
+    }
+  },
+  "resize-arrays": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.1"
+    }
+  },
+  "resize-observer": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.0"
+    }
+  },
+  "resource": {
+    "type": "registry",
+    "value": {
+      "version": "2.0.1"
+    }
+  },
+  "resourcet": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.0"
+    }
+  },
+  "result": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.3"
+    }
+  },
+  "return": {
+    "type": "registry",
+    "value": {
+      "version": "0.2.0"
+    }
+  },
+  "ring-modules": {
+    "type": "registry",
+    "value": {
+      "version": "5.0.1"
+    }
+  },
+  "rito": {
+    "type": "registry",
+    "value": {
+      "version": "0.3.4"
+    }
+  },
+  "roman": {
+    "type": "registry",
+    "value": {
+      "version": "0.4.0"
+    }
+  },
+  "rough-notation": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.2"
+    }
+  },
+  "routing": {
+    "type": "registry",
+    "value": {
+      "version": "11.0.0"
+    }
+  },
+  "routing-duplex": {
+    "type": "registry",
+    "value": {
+      "version": "0.7.0"
+    }
+  },
+  "run": {
+    "type": "registry",
+    "value": {
+      "version": "5.0.0"
+    }
+  },
+  "safe-coerce": {
+    "type": "registry",
+    "value": {
+      "version": "2.0.0"
+    }
+  },
+  "safely": {
+    "type": "registry",
+    "value": {
+      "version": "4.0.1"
+    }
+  },
+  "school-of-music": {
+    "type": "registry",
+    "value": {
+      "version": "1.3.0"
+    }
+  },
+  "selection-foldable": {
+    "type": "registry",
+    "value": {
+      "version": "0.2.0"
+    }
+  },
+  "selective-functors": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.1"
+    }
+  },
+  "semirings": {
+    "type": "registry",
+    "value": {
+      "version": "7.0.0"
+    }
+  },
+  "shuffle": {
+    "type": "registry",
+    "value": {
+      "version": "2.0.0"
+    }
+  },
+  "sigil": {
+    "type": "registry",
+    "value": {
+      "version": "0.3.0"
+    }
+  },
+  "sigil-hats": {
+    "type": "registry",
+    "value": {
+      "version": "0.3.0"
+    }
+  },
+  "signal": {
+    "type": "registry",
+    "value": {
+      "version": "13.0.0"
+    }
+  },
+  "simple-emitter": {
+    "type": "registry",
+    "value": {
+      "version": "3.0.1"
+    }
+  },
+  "simple-i18n": {
+    "type": "registry",
+    "value": {
+      "version": "2.0.1"
+    }
+  },
+  "simple-json": {
+    "type": "registry",
+    "value": {
+      "version": "9.0.0"
+    }
+  },
+  "simple-json-generics": {
+    "type": "registry",
+    "value": {
+      "version": "0.2.1"
+    }
+  },
+  "simple-ulid": {
+    "type": "registry",
+    "value": {
+      "version": "3.0.0"
+    }
+  },
+  "sized-matrices": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.0"
+    }
+  },
+  "sized-vectors": {
+    "type": "registry",
+    "value": {
+      "version": "5.0.2"
+    }
+  },
+  "slug": {
+    "type": "registry",
+    "value": {
+      "version": "3.2.0"
+    }
+  },
+  "small-ffi": {
+    "type": "registry",
+    "value": {
+      "version": "4.0.1"
+    }
+  },
+  "soundfonts": {
+    "type": "registry",
+    "value": {
+      "version": "4.1.0"
+    }
+  },
+  "sparse-matrices": {
+    "type": "registry",
+    "value": {
+      "version": "2.0.1"
+    }
+  },
+  "sparse-polynomials": {
+    "type": "registry",
+    "value": {
+      "version": "3.0.1"
+    }
+  },
+  "spec": {
+    "type": "git",
+    "value": {
+      "git": "https://github.com/0x000000000000000000001/phpurs-spec.git",
+      "ref": "master",
+      "dependencies": [
+        {
+          "aff": ">=8.0.0 <9.0.0"
+        },
+        {
+          "ansi": ">=7.0.0 <8.0.0"
+        },
+        {
+          "arrays": ">=7.3.0 <8.0.0"
+        },
+        {
+          "avar": ">=5.0.0 <6.0.0"
+        },
+        {
+          "bifunctors": ">=6.0.0 <7.0.0"
+        },
+        {
+          "control": ">=6.0.0 <7.0.0"
+        },
+        {
+          "datetime": ">=6.1.0 <7.0.0"
+        },
+        "debug",
+        {
+          "effect": ">=4.0.0 <5.0.0"
+        },
+        {
+          "either": ">=6.1.0 <7.0.0"
+        },
+        {
+          "exceptions": ">=6.1.0 <7.0.0"
+        },
+        {
+          "foldable-traversable": ">=6.0.0 <7.0.0"
+        },
+        {
+          "fork": ">=6.0.0 <7.0.0"
+        },
+        {
+          "identity": ">=6.0.0 <7.0.0"
+        },
+        {
+          "integers": ">=6.0.0 <7.0.0"
+        },
+        {
+          "lists": ">=7.0.0 <8.0.0"
+        },
+        {
+          "maybe": ">=6.0.0 <7.0.0"
+        },
+        {
+          "newtype": ">=5.0.0 <6.0.0"
+        },
+        {
+          "now": ">=6.0.0 <7.0.0"
+        },
+        {
+          "ordered-collections": ">=3.2.0 <4.0.0"
+        },
+        {
+          "parallel": ">=7.0.0 <8.0.0"
+        },
+        {
+          "pipes": ">=8.0.0 <9.0.0"
+        },
+        {
+          "prelude": ">=6.0.1 <7.0.0"
+        },
+        {
+          "refs": ">=6.0.0 <7.0.0"
+        },
+        {
+          "strings": ">=6.0.1 <7.0.0"
+        },
+        {
+          "tailrec": ">=6.1.0 <7.0.0"
+        },
+        {
+          "transformers": ">=6.1.0 <7.0.0"
+        },
+        {
+          "tuples": ">=7.0.0 <8.0.0"
+        }
+      ]
+    }
+  },
+  "spec-discovery": {
+    "type": "registry",
+    "value": {
+      "version": "8.4.1"
+    }
+  },
+  "spec-mocha": {
+    "type": "registry",
+    "value": {
+      "version": "5.1.1"
+    }
+  },
+  "spec-node": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.3"
+    }
+  },
+  "spec-quickcheck": {
+    "type": "registry",
+    "value": {
+      "version": "5.0.2"
+    }
+  },
+  "spec-reporter-xunit": {
+    "type": "registry",
+    "value": {
+      "version": "0.7.1"
+    }
+  },
+  "splitmix": {
+    "type": "registry",
+    "value": {
+      "version": "2.1.0"
+    }
+  },
+  "ssrs": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.0"
+    }
+  },
+  "st": {
+    "type": "git",
+    "value": {
+      "git": "https://github.com/0x000000000000000000001/phpurs-st.git",
+      "ref": "master",
+      "dependencies": [
+        "partial",
+        "prelude",
+        "tailrec",
+        "unsafe-coerce"
+      ]
+    }
+  },
+  "statistics": {
+    "type": "registry",
+    "value": {
+      "version": "0.3.2"
+    }
+  },
+  "strictlypositiveint": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.1"
+    }
+  },
+  "string-parsers": {
+    "type": "registry",
+    "value": {
+      "version": "8.0.0"
+    }
+  },
+  "strings": {
+    "type": "git",
+    "value": {
+      "git": "https://github.com/0x000000000000000000001/phpurs-strings.git",
+      "ref": "master",
+      "dependencies": [
+        "arrays",
+        "control",
+        "either",
+        "enums",
+        "foldable-traversable",
+        "gen",
+        "integers",
+        "maybe",
+        "newtype",
+        "nonempty",
+        "partial",
+        "prelude",
+        "tailrec",
+        "tuples",
+        "unfoldable",
+        "unsafe-coerce"
+      ]
+    }
+  },
+  "strings-extra": {
+    "type": "registry",
+    "value": {
+      "version": "4.0.0"
+    }
+  },
+  "stringutils": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.13"
+    }
+  },
+  "structured-logging": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.0"
+    }
+  },
+  "substitute": {
+    "type": "registry",
+    "value": {
+      "version": "0.2.3"
+    }
+  },
+  "supabase": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.0"
+    }
+  },
+  "supply": {
+    "type": "registry",
+    "value": {
+      "version": "0.2.0"
+    }
+  },
+  "svg-parser": {
+    "type": "registry",
+    "value": {
+      "version": "3.0.0"
+    }
+  },
+  "systemd-journald": {
+    "type": "registry",
+    "value": {
+      "version": "0.3.0"
+    }
+  },
+  "tagged": {
+    "type": "registry",
+    "value": {
+      "version": "4.0.2"
+    }
+  },
+  "tailrec": {
+    "type": "registry",
+    "value": {
+      "version": "6.1.0"
+    }
+  },
+  "tanstack-query": {
+    "type": "registry",
+    "value": {
+      "version": "3.0.0"
+    }
+  },
+  "tecton": {
+    "type": "registry",
+    "value": {
+      "version": "0.2.1"
+    }
+  },
+  "tecton-halogen": {
+    "type": "registry",
+    "value": {
+      "version": "0.2.0"
+    }
+  },
+  "temporal": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.0"
+    }
+  },
+  "test-unit": {
+    "type": "registry",
+    "value": {
+      "version": "17.0.0"
+    }
+  },
+  "text-formatting": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.0"
+    }
+  },
+  "thermite": {
+    "type": "registry",
+    "value": {
+      "version": "6.3.1"
+    }
+  },
+  "thermite-dom": {
+    "type": "registry",
+    "value": {
+      "version": "0.3.1"
+    }
+  },
+  "these": {
+    "type": "registry",
+    "value": {
+      "version": "6.0.0"
+    }
+  },
+  "threading": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.3"
+    }
+  },
+  "tidy": {
+    "type": "registry",
+    "value": {
+      "version": "0.11.1"
+    }
+  },
+  "tidy-codegen": {
+    "type": "registry",
+    "value": {
+      "version": "4.0.1"
+    }
+  },
+  "tldr": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.0"
+    }
+  },
+  "toestand": {
+    "type": "registry",
+    "value": {
+      "version": "0.9.0"
+    }
+  },
+  "transformation-matrix": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.1"
+    }
+  },
+  "transformers": {
+    "type": "registry",
+    "value": {
+      "version": "6.1.0"
+    }
+  },
+  "transit": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.0"
+    }
+  },
+  "tree-rose": {
+    "type": "registry",
+    "value": {
+      "version": "4.0.2"
+    }
+  },
+  "trivial-unfold": {
+    "type": "registry",
+    "value": {
+      "version": "0.5.0"
+    }
+  },
+  "ts-bridge": {
+    "type": "registry",
+    "value": {
+      "version": "4.0.0"
+    }
+  },
+  "tuples": {
+    "type": "registry",
+    "value": {
+      "version": "7.0.0"
+    }
+  },
+  "two-or-more": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.0"
+    }
+  },
+  "type-equality": {
+    "type": "registry",
+    "value": {
+      "version": "4.0.1"
+    }
+  },
+  "typedenv": {
+    "type": "registry",
+    "value": {
+      "version": "2.0.1"
+    }
+  },
+  "typelevel": {
+    "type": "registry",
+    "value": {
+      "version": "6.0.0"
+    }
+  },
+  "typelevel-lists": {
+    "type": "registry",
+    "value": {
+      "version": "2.1.0"
+    }
+  },
+  "typelevel-peano": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.1"
+    }
+  },
+  "typelevel-prelude": {
+    "type": "registry",
+    "value": {
+      "version": "7.0.0"
+    }
+  },
+  "typelevel-regex": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.3"
+    }
+  },
+  "typelevel-rows": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.0"
+    }
+  },
+  "typisch": {
+    "type": "registry",
+    "value": {
+      "version": "0.4.0"
+    }
+  },
+  "uint": {
+    "type": "registry",
+    "value": {
+      "version": "7.0.0"
+    }
+  },
+  "ulid": {
+    "type": "registry",
+    "value": {
+      "version": "3.0.1"
+    }
+  },
+  "uncurried-transformers": {
+    "type": "registry",
+    "value": {
+      "version": "1.1.0"
+    }
+  },
+  "undefined": {
+    "type": "registry",
+    "value": {
+      "version": "2.0.0"
+    }
+  },
+  "undefined-is-not-a-problem": {
+    "type": "registry",
+    "value": {
+      "version": "1.1.0"
+    }
+  },
+  "unfoldable": {
+    "type": "git",
+    "value": {
+      "git": "https://github.com/0x000000000000000000001/phpurs-unfoldable.git",
+      "ref": "master",
+      "dependencies": [
+        "foldable-traversable",
+        "maybe",
+        "partial",
+        "prelude",
+        "tuples"
+      ]
+    }
+  },
+  "unicode": {
+    "type": "registry",
+    "value": {
+      "version": "6.0.0"
+    }
+  },
+  "unique": {
+    "type": "registry",
+    "value": {
+      "version": "0.6.1"
+    }
+  },
+  "unlift": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.1"
+    }
+  },
+  "unordered-collections": {
+    "type": "registry",
+    "value": {
+      "version": "3.1.0"
+    }
+  },
+  "unsafe-coerce": {
+    "type": "git",
+    "value": {
+      "git": "https://github.com/0x000000000000000000001/phpurs-unsafe-coerce.git",
+      "ref": "master",
+      "dependencies": []
+    }
+  },
+  "unsafe-reference": {
+    "type": "registry",
+    "value": {
+      "version": "5.0.0"
+    }
+  },
+  "untagged-to-tagged": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.4"
+    }
+  },
+  "untagged-union": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.0"
+    }
+  },
+  "uri": {
+    "type": "registry",
+    "value": {
+      "version": "9.0.0"
+    }
+  },
+  "url-immutable": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.0"
+    }
+  },
+  "url-regex-safe": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.1"
+    }
+  },
+  "uuid": {
+    "type": "git",
+    "value": {
+      "git": "https://github.com/0x000000000000000000001/phpurs-uuid.git",
+      "ref": "main",
+      "dependencies": [
+        "aff",
+        "effect",
+        "maybe",
+        "partial",
+        "prelude",
+        "spec",
+        "strings"
+      ]
+    }
+  },
+  "uuidv4": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.0"
+    }
+  },
+  "validation": {
+    "type": "registry",
+    "value": {
+      "version": "6.0.0"
+    }
+  },
+  "variant": {
+    "type": "git",
+    "value": {
+      "git": "https://github.com/0x000000000000000000001/phpurs-variant.git",
+      "ref": "master",
+      "dependencies": [
+        "assert",
+        "control",
+        "effect",
+        "either",
+        "enums",
+        "foldable-traversable",
+        "lists",
+        "maybe",
+        "partial",
+        "prelude",
+        "record",
+        "tuples",
+        "type-equality",
+        "unsafe-coerce"
+      ]
+    }
+  },
+  "variant-encodings": {
+    "type": "registry",
+    "value": {
+      "version": "2.0.0"
+    }
+  },
+  "variant-gen": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.0"
+    }
+  },
+  "vectorfield": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.1"
+    }
+  },
+  "vectors": {
+    "type": "registry",
+    "value": {
+      "version": "2.1.0"
+    }
+  },
+  "versions": {
+    "type": "registry",
+    "value": {
+      "version": "7.0.0"
+    }
+  },
+  "visx": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.2"
+    }
+  },
+  "vitest": {
+    "type": "registry",
+    "value": {
+      "version": "2.0.0"
+    }
+  },
+  "wasm-base": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.1"
+    }
+  },
+  "web-chain": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.1"
+    }
+  },
+  "web-clipboard": {
+    "type": "registry",
+    "value": {
+      "version": "6.0.0"
+    }
+  },
+  "web-cssom": {
+    "type": "registry",
+    "value": {
+      "version": "2.0.0"
+    }
+  },
+  "web-cssom-view": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.0"
+    }
+  },
+  "web-dom": {
+    "type": "registry",
+    "value": {
+      "version": "6.0.0"
+    }
+  },
+  "web-dom-parser": {
+    "type": "registry",
+    "value": {
+      "version": "8.0.0"
+    }
+  },
+  "web-dom-xpath": {
+    "type": "registry",
+    "value": {
+      "version": "3.0.0"
+    }
+  },
+  "web-encoding": {
+    "type": "registry",
+    "value": {
+      "version": "3.0.0"
+    }
+  },
+  "web-events": {
+    "type": "registry",
+    "value": {
+      "version": "4.0.0"
+    }
+  },
+  "web-fetch": {
+    "type": "registry",
+    "value": {
+      "version": "4.0.1"
+    }
+  },
+  "web-file": {
+    "type": "registry",
+    "value": {
+      "version": "4.0.0"
+    }
+  },
+  "web-geometry": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.0"
+    }
+  },
+  "web-html": {
+    "type": "registry",
+    "value": {
+      "version": "4.1.1"
+    }
+  },
+  "web-pointerevents": {
+    "type": "registry",
+    "value": {
+      "version": "2.0.0"
+    }
+  },
+  "web-proletarian": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.0"
+    }
+  },
+  "web-promise": {
+    "type": "registry",
+    "value": {
+      "version": "3.2.0"
+    }
+  },
+  "web-resize-observer": {
+    "type": "registry",
+    "value": {
+      "version": "2.1.0"
+    }
+  },
+  "web-router": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.0"
+    }
+  },
+  "web-socket": {
+    "type": "registry",
+    "value": {
+      "version": "4.0.0"
+    }
+  },
+  "web-storage": {
+    "type": "registry",
+    "value": {
+      "version": "5.0.0"
+    }
+  },
+  "web-streams": {
+    "type": "registry",
+    "value": {
+      "version": "4.0.0"
+    }
+  },
+  "web-touchevents": {
+    "type": "registry",
+    "value": {
+      "version": "4.0.0"
+    }
+  },
+  "web-uievents": {
+    "type": "registry",
+    "value": {
+      "version": "5.0.0"
+    }
+  },
+  "web-url": {
+    "type": "registry",
+    "value": {
+      "version": "2.0.0"
+    }
+  },
+  "web-workers": {
+    "type": "registry",
+    "value": {
+      "version": "1.1.0"
+    }
+  },
+  "web-xhr": {
+    "type": "registry",
+    "value": {
+      "version": "5.0.1"
+    }
+  },
+  "webb-aff-list": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.2"
+    }
+  },
+  "webb-array": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.2"
+    }
+  },
+  "webb-channel": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.3"
+    }
+  },
+  "webb-commandline": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.3"
+    }
+  },
+  "webb-directory": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.7"
+    }
+  },
+  "webb-file": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.1"
+    }
+  },
+  "webb-map": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.1"
+    }
+  },
+  "webb-monad": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.2"
+    }
+  },
+  "webb-mutex": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.7"
+    }
+  },
+  "webb-parsing": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.5"
+    }
+  },
+  "webb-random": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.1"
+    }
+  },
+  "webb-refer": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.3"
+    }
+  },
+  "webb-set": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.1"
+    }
+  },
+  "webb-slot": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.1"
+    }
+  },
+  "webb-stateful": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.3"
+    }
+  },
+  "webb-string": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.1"
+    }
+  },
+  "webb-test": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.1"
+    }
+  },
+  "webb-thread": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.2"
+    }
+  },
+  "webb-writer": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.3"
+    }
+  },
+  "webextension-polyfill": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.0"
+    }
+  },
+  "webgpu": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.1"
+    }
+  },
+  "which": {
+    "type": "registry",
+    "value": {
+      "version": "2.0.0"
+    }
+  },
+  "whine-core": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.34"
+    }
+  },
+  "xterm": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.0"
+    }
+  },
+  "yaml-next": {
+    "type": "registry",
+    "value": {
+      "version": "3.1.1"
+    }
+  },
+  "yoga-acp-om": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.1"
+    }
+  },
+  "yoga-better-auth": {
+    "type": "registry",
+    "value": {
+      "version": "0.2.2"
+    }
+  },
+  "yoga-bun-yoga": {
+    "type": "registry",
+    "value": {
+      "version": "0.2.1"
+    }
+  },
+  "yoga-config": {
+    "type": "registry",
+    "value": {
+      "version": "0.2.1"
+    }
+  },
+  "yoga-country": {
+    "type": "registry",
+    "value": {
+      "version": "3.0.0"
+    }
+  },
+  "yoga-docker-compose": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.1"
+    }
+  },
+  "yoga-dynamodb": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.1"
+    }
+  },
+  "yoga-elasticsearch": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.1"
+    }
+  },
+  "yoga-fastify": {
+    "type": "registry",
+    "value": {
+      "version": "0.5.1"
+    }
+  },
+  "yoga-fastify-om": {
+    "type": "registry",
+    "value": {
+      "version": "0.4.4"
+    }
+  },
+  "yoga-fetch": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.1"
+    }
+  },
+  "yoga-fetch-om": {
+    "type": "registry",
+    "value": {
+      "version": "0.6.3"
+    }
+  },
+  "yoga-format": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.0"
+    }
+  },
+  "yoga-heroui": {
+    "type": "registry",
+    "value": {
+      "version": "2.0.2"
+    }
+  },
+  "yoga-http-api": {
+    "type": "registry",
+    "value": {
+      "version": "0.3.1"
+    }
+  },
+  "yoga-jaeger": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.1"
+    }
+  },
+  "yoga-json": {
+    "type": "registry",
+    "value": {
+      "version": "5.2.1"
+    }
+  },
+  "yoga-language": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.0"
+    }
+  },
+  "yoga-next-fastify": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.1"
+    }
+  },
+  "yoga-om": {
+    "type": "registry",
+    "value": {
+      "version": "2.2.0"
+    }
+  },
+  "yoga-om-layer": {
+    "type": "registry",
+    "value": {
+      "version": "2.1.0"
+    }
+  },
+  "yoga-om-strom": {
+    "type": "registry",
+    "value": {
+      "version": "0.4.2"
+    }
+  },
+  "yoga-om-workerbees": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.2"
+    }
+  },
+  "yoga-opentelemetry": {
+    "type": "registry",
+    "value": {
+      "version": "0.2.0"
+    }
+  },
+  "yoga-options": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.1"
+    }
+  },
+  "yoga-pino": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.1"
+    }
+  },
+  "yoga-postgres": {
+    "type": "registry",
+    "value": {
+      "version": "6.0.0"
+    }
+  },
+  "yoga-react": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.2"
+    }
+  },
+  "yoga-react-dom": {
+    "type": "registry",
+    "value": {
+      "version": "2.0.1"
+    }
+  },
+  "yoga-react-native": {
+    "type": "registry",
+    "value": {
+      "version": "0.2.1"
+    }
+  },
+  "yoga-react-om": {
+    "type": "registry",
+    "value": {
+      "version": "0.2.0"
+    }
+  },
+  "yoga-redis": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.0"
+    }
+  },
+  "yoga-shadcn": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.5"
+    }
+  },
+  "yoga-sql-types": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.0"
+    }
+  },
+  "yoga-sqlite": {
+    "type": "registry",
+    "value": {
+      "version": "0.3.2"
+    }
+  },
+  "yoga-sse": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.1"
+    }
+  },
+  "yoga-subtlecrypto": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.0"
+    }
+  },
+  "yoga-test-docker": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.2"
+    }
+  },
+  "yoga-timezone": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.0"
+    }
+  },
+  "yoga-tree": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.0"
+    }
+  },
+  "yoga-tree-svg": {
+    "type": "registry",
+    "value": {
+      "version": "0.1.0"
+    }
+  },
+  "yoga-tree-utils": {
+    "type": "registry",
+    "value": {
+      "version": "1.0.0"
+    }
+  },
+  "z3": {
+    "type": "registry",
+    "value": {
+      "version": "0.0.2"
+    }
+  },
+  "zipperarray": {
+    "type": "registry",
+    "value": {
+      "version": "2.0.0"
+    }
+  }
+}
