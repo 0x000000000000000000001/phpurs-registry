@@ -2129,9 +2129,13 @@
     }
   },
   "node-path": {
-    "type": "registry",
+    "type": "git",
     "value": {
-      "version": "5.0.1"
+      "git": "https://github.com/0x000000000000000000001/phpurs-node-path.git",
+      "ref": "master",
+      "dependencies": [
+        "effect"
+      ]
     }
   },
   "node-process": {
@@ -2959,9 +2963,26 @@
     }
   },
   "run": {
-    "type": "registry",
+    "type": "git",
     "value": {
-      "version": "5.0.0"
+      "git": "https://github.com/0x000000000000000000001/phpurs-run.git",
+      "ref": "master",
+      "dependencies": [
+        "aff",
+        "effect",
+        "either",
+        "free",
+        "maybe",
+        "newtype",
+        "prelude",
+        "profunctor",
+        "tailrec",
+        "tuples",
+        "type-equality",
+        "typelevel-prelude",
+        "unsafe-coerce",
+        "variant"
+      ]
     }
   },
   "safe-coerce": {
