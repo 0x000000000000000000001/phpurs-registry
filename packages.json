@@ -2055,9 +2055,16 @@
     }
   },
   "node-event-emitter": {
-    "type": "registry",
+    "type": "git",
     "value": {
-      "version": "3.0.0"
+      "git": "https://github.com/0x000000000000000000001/phpurs-node-event-emitter.git",
+      "ref": "master",
+      "dependencies": [
+        "effect",
+        "maybe",
+        "options",
+        "prelude"
+      ]
     }
   },
   "node-execa": {
