@@ -2106,9 +2106,26 @@
     }
   },
   "node-http": {
-    "type": "registry",
+    "type": "git",
     "value": {
-      "version": "9.1.0"
+      "git": "https://github.com/0x000000000000000000001/phpurs-node-http.git",
+      "ref": "master",
+      "dependencies": [
+        "arraybuffer-types",
+        "contravariant",
+        "effect",
+        "foreign",
+        "foreign-object",
+        "maybe",
+        "node-buffer",
+        "node-net",
+        "node-streams",
+        "node-url",
+        "nullable",
+        "options",
+        "prelude",
+        "unsafe-coerce"
+      ]
     }
   },
   "node-http2": {
@@ -2124,9 +2141,24 @@
     }
   },
   "node-net": {
-    "type": "registry",
+    "type": "git",
     "value": {
-      "version": "5.1.0"
+      "git": "https://github.com/0x000000000000000000001/phpurs-node-net.git",
+      "ref": "master",
+      "dependencies": [
+        "effect",
+        "either",
+        "exceptions",
+        "foreign",
+        "maybe",
+        "node-buffer",
+        "node-event-emitter",
+        "node-fs",
+        "node-streams",
+        "nullable",
+        "options",
+        "prelude"
+      ]
     }
   },
   "node-os": {
