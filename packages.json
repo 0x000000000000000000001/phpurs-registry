@@ -3097,9 +3097,21 @@
     }
   },
   "simple-json": {
-    "type": "registry",
+    "type": "custom",
     "value": {
-      "version": "9.0.0"
+      "git": "https://github.com/0x000000000000000000001/phpurs-simple-json.git",
+      "ref": "master",
+      "dependencies": [
+        "arrays",
+        "exceptions",
+        "foreign",
+        "foreign-object",
+        "nullable",
+        "prelude",
+        "record",
+        "typelevel-prelude",
+        "variant"
+      ]
     }
   },
   "simple-json-generics": {
