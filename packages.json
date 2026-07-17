@@ -1014,9 +1014,22 @@
     }
   },
   "foreign": {
-    "type": "registry",
+    "type": "git",
     "value": {
-      "version": "7.0.0"
+      "git": "https://github.com/0x000000000000000000001/phpurs-foreign.git",
+      "ref": "master",
+      "dependencies": [
+        "either",
+        "foldable-traversable",
+        "functions",
+        "identity",
+        "integers",
+        "lists",
+        "maybe",
+        "prelude",
+        "strings",
+        "transformers"
+      ]
     }
   },
   "foreign-object": {
@@ -4217,9 +4230,26 @@
     }
   },
   "yoga-json": {
-    "type": "registry",
+    "type": "git",
     "value": {
-      "version": "5.2.1"
+      "git": "https://github.com/0x000000000000000000001/phpurs-yoga-json.git",
+      "ref": "main",
+      "dependencies": [
+        "bifunctors",
+        "control",
+        "either",
+        "exceptions",
+        "foldable-traversable",
+        "foreign",
+        "foreign-object",
+        "lists",
+        "maybe",
+        "nullable",
+        "prelude",
+        "record",
+        "typelevel-prelude",
+        "variant"
+      ]
     }
   },
   "yoga-language": {
