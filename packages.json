@@ -3033,7 +3033,10 @@
         "type-equality",
         "typelevel-prelude",
         "unsafe-coerce",
-        "variant"
+        "variant",
+        "js-bigints",
+        "js-date",
+        "yoga-tree"
       ]
     }
   },
