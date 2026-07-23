@@ -231,9 +231,15 @@
     }
   },
   "assert": {
-    "type": "registry",
+    "type": "git",
     "value": {
-      "version": "6.0.0"
+      "git": "https://github.com/0x000000000000000000001/phpurs-assert.git",
+      "ref": "main",
+      "dependencies": [
+        "console",
+        "effect",
+        "prelude"
+      ]
     }
   },
   "assert-multiple": {
