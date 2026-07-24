@@ -234,7 +234,7 @@
     "type": "git",
     "value": {
       "git": "https://github.com/0x000000000000000000001/phpurs-assert.git",
-      "ref": "main",
+      "ref": "master",
       "dependencies": [
         "console",
         "effect",
